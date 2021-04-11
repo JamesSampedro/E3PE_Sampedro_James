@@ -1,0 +1,115 @@
+html {
+  font-size: 12px;
+  background-image: url("bg.jpg");
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'serif';
+}
+
+p, input, li, ul, ol {
+  font-family: 'American Typewriter, serif', sans-serif;
+  color: f0f0f0;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+  font-family: 'Didot, serif';
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p, li, ol {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+header {
+  margin-bottom: 7px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main, header, nav, article, aside, footer, section {
+  background-color: hsla(0, 100%, 70%, 0.3);
+  padding: 1%;
+}
+
+h1 {
+  flex: 3;
+  text-transform: uppercase;
+}
+
+header img {
+  display: block;
+  height: 120px;
+  padding-top: 15px;
+}
+
+nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a, nav span {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 5;
+}
+
+aside {
+  flex: 2;
+  margin-left: 30px;
+  padding: 1%;
+}
+
+aside a {
+  display: block;
+  float: right;
+  width: 30%;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 5px;
+}
